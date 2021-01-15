@@ -1,3 +1,6 @@
 [submodule "shareKit"]
 	path = shareKit
 	url = https://github.com/zhouxinv/shareKit.git
+[submodule "NSLogKit"]
+	path = NSLogKit
+	url = https://github.com/zhouxinv/NSLogKit.git

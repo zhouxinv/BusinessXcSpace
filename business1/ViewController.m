@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import <shareKit/shareKit.h>
+#import <NSLogKit/NSLogKit.h>
 
 @interface ViewController ()
 
@@ -23,6 +24,9 @@
     VVshareSDK *test = [[VVshareSDK alloc] init];
     [test sayHello];
     [test sayMyLove];
+    
+    VVLogSDK *log = [[VVLogSDK alloc] init];
+    [log sayHello];
 }
 
 

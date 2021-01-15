@@ -7,4 +7,7 @@
    <FileRef
       location = "group:shareKit/shareKit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:NSLogKit/NSLogKit.xcodeproj">
+   </FileRef>
 </Workspace>

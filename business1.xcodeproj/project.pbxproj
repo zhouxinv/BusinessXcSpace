@@ -16,6 +16,8 @@
 		5C56BF1B25B1800E00452AC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56BF1A25B1800E00452AC8 /* main.m */; };
 		5C56BF2525B1800E00452AC8 /* business1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56BF2425B1800E00452AC8 /* business1Tests.m */; };
 		5C56BF3025B1800E00452AC8 /* business1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56BF2F25B1800E00452AC8 /* business1UITests.m */; };
+		5C56BF5925B1828E00452AC8 /* shareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C56BF5825B1828E00452AC8 /* shareKit.framework */; };
+		5C56BF5A25B1828E00452AC8 /* shareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C56BF5825B1828E00452AC8 /* shareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,20 @@
 			remoteInfo = business1;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C56BF5B25B1828E00452AC8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C56BF5A25B1828E00452AC8 /* shareKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5C56BF0525B1800D00452AC8 /* business1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = business1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +70,7 @@
 		5C56BF2B25B1800E00452AC8 /* business1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = business1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C56BF2F25B1800E00452AC8 /* business1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = business1UITests.m; sourceTree = "<group>"; };
 		5C56BF3125B1800E00452AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C56BF5825B1828E00452AC8 /* shareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = shareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C56BF5925B1828E00452AC8 /* shareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +106,7 @@
 				5C56BF2325B1800E00452AC8 /* business1Tests */,
 				5C56BF2E25B1800E00452AC8 /* business1UITests */,
 				5C56BF0625B1800D00452AC8 /* Products */,
+				5C56BF5725B1828E00452AC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +156,14 @@
 			path = business1UITests;
 			sourceTree = "<group>";
 		};
+		5C56BF5725B1828E00452AC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C56BF5825B1828E00452AC8 /* shareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +174,7 @@
 				5C56BF0125B1800D00452AC8 /* Sources */,
 				5C56BF0225B1800D00452AC8 /* Frameworks */,
 				5C56BF0325B1800D00452AC8 /* Resources */,
+				5C56BF5B25B1828E00452AC8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

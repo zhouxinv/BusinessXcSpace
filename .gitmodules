@@ -1,0 +1,3 @@
+[submodule "shareKit"]
+	path = shareKit
+	url = https://github.com/zhouxinv/shareKit.git

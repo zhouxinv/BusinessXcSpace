@@ -4,3 +4,6 @@
 [submodule "NSLogKit"]
 	path = NSLogKit
 	url = https://github.com/zhouxinv/NSLogKit.git
+[submodule "Masonry"]
+	path = Masonry
+	url = https://github.com/SnapKit/Masonry.git
